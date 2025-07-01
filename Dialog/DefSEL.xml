@@ -1,0 +1,26 @@
+<definition>
+	<opcode>SEL</opcode>
+	
+	<params>
+		<textline>
+			<id>id</id>
+			<name>Window ID</name>
+			<desc>The id of the dialog window.</desc>
+			<default>main</default>
+		</textline>
+  	</params>
+	
+	<impl>
+		<deps>
+			<dep>
+				<name>DialogManager</name>
+			</dep>
+		</deps>
+		<exec>DialogManager.SelectWindow(%id%);</exec>
+	</impl>
+	
+	<icon>Dialog/IconSEL.bmp</icon>
+	<name>Select Window</name>
+	<desc>Select a dialog window as the target for future dialog-related instructions.</desc>
+	<category>Dialog</category>
+</definition>

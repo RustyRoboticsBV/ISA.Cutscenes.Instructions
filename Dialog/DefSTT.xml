@@ -1,0 +1,32 @@
+<definition>
+	<opcode>STT</opcode>
+	
+	<params>
+		<textline>
+			<id>state</id>
+			<name>State</name>
+			<desc>The id of the new state.</desc>
+			<default>main</default>
+		</textline>
+		<float>
+			<id>time</id>
+			<name>Time</name>
+			<desc>The time that the transition should take.</desc>
+			<default>0.25</default>
+		</float>
+	</params>
+	
+	<impl>
+		<deps>
+			<dep>
+				<name>DialogManager</name>
+			</dep>
+		</deps>
+		<exec>DialogManager.EnterState(%state%, %time%);</exec>
+	</impl>
+	
+	<icon>Dialog/IconSTT.bmp</icon>
+	<name>Set Window State</name>
+	<desc>Start a state transition for the selected dialog window.</desc>
+	<category>Dialog</category>
+</definition>

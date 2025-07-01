@@ -1,0 +1,51 @@
+<definition>
+	<opcode>CLR</opcode>
+	
+	<impl>
+		<deps>
+			<dep>
+				<name>DialogManager</name>
+			</dep>
+		</deps>
+		<exec>DialogManager.ClearText();</exec>
+	</impl>
+	
+	<icon>Dialog/IconCLR.bmp</icon>
+	<name>Clear Text</name>
+	<desc>Clears the text in the currently-selected dialog window.</desc>
+	<category>Dialog</category>
+	
+	<node>
+ 		<priority>0</priority>
+ 		<main_color>#0080ff</main_color>
+	</node>
+ 
+	<pre>
+ 		<option>
+			<id>select?</id>
+			<name>Select Window?</name>
+			<desc>Target a specific dialog window to be cleared?</desc>
+			<type>
+				<instr>
+					<id>select</id>
+					<opcode>SEL</opcode>
+					<name>Window</name>
+					<desc>The dialog window that we want to select.</desc>
+				</instr>
+			</type>
+		</option>
+		<option>
+			<id>state?</id>
+			<name>Set Dialog State?</name>
+			<desc>Set the state of the selected dialog window before clearing it?</desc>
+			<type>
+				<instr>
+					<id>state</id>
+					<opcode>STT</opcode>
+					<name>State</name>
+					<desc>The dialog state that we want to use.</desc>
+				</instr>
+			</type>
+		</option>
+	</pre>
+</definition>

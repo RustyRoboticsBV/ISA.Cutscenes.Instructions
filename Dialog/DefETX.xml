@@ -1,0 +1,35 @@
+<definition>
+	<opcode>ETX</opcode>
+	
+	<params>
+		<float>
+			<id>wait_time</id>
+			<name>Wait Time</name>
+			<desc>The amount of time that a dialog window will wait before displaying this extension.</desc>
+			<default>0.75</default>
+		</float>
+		<multiline>
+			<id>text</id>
+			<name>Text</name>
+			<desc>The text that will be displayed.</desc>
+			<default> Blah.</default>
+			<translate>True</translate>
+		</multiline>
+	</params>
+	
+	<impl>
+		<deps>
+    			<dep>
+        			<name>DialogManager</name>
+   			</dep>
+		</deps>
+		<exec>DialogManager.AddExtension([[text]], [[wait_time]]);</exec>
+	</impl>
+	
+	<icon>Dialog/IconETX.bmp</icon>
+	<name>Add Dialog Extension</name>
+	<desc>Adds an extension to the next line of dialog.</desc>
+	<category>Dialog</category>
+	
+	<preview>[[text]];</preview>
+</definition>

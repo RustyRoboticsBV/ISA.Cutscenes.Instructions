@@ -1,0 +1,36 @@
+<definition>
+	<opcode>CTX</opcode>
+
+	<params>
+		<textline>
+			<id>text</id>
+			<name>Text</name>
+			<desc>The text that will be displayed.</desc>
+			<default>Blah.</default>
+			<translate>True</translate>
+		</textline>
+		<output>
+			<id>target_label</id>
+			<name>Target Label</name>
+			<desc>The label that will be jumped to if this option is selected.</desc>
+			<remove_default>true</remove_default>
+			<preview>limit([[text]], 20);</preview>
+		</output>
+	</params>
+	
+	<impl>
+		<deps>
+    			<dep>
+        			<name>DialogManager</name>
+    			</dep>
+		</deps>
+		<exec>DialogManager.ClearText();</exec>
+	</impl>
+	
+	<icon>Dialog/IconCTX.bmp</icon>
+	<name>Add Dialog Choice</name>
+	<desc>Adds a dialog choice to the next line of dialog.</desc>
+	<category>Dialog</category>
+
+	<preview>[[text]];</preview>
+</definition>

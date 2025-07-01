@@ -1,0 +1,34 @@
+<definition>
+	<opcode>SEQ</opcode>
+
+	<icon>Dialog/IconSEQ.bmp</icon>
+	<name>Text Sequence</name>
+	<desc>A sequence of dialog instructions.</desc>
+	<category>Dialog</category>
+	
+	<node>
+		<priority>2</priority>
+		<min_width>220</min_width>
+		<main_color>#0080ff</main_color>
+		<text_color>#ffffff</text_color>
+	</node>
+	
+	<preview>[[lines]]</preview>
+	
+	<pre>
+		<list>
+			<id>lines</id>
+			<name>Dialog Lines</name>
+			<desc>The lines of dialog in this sequence.</desc>
+			<button_text>Add Line</button_text>
+			<type>
+				<instr>
+					<id>line</id>
+					<opcode>TXT</opcode>
+					<name>Dialog Line</name>
+					<desc>A line of dialog in the sequence.</desc>
+				</instr>
+			</type>
+		</list>
+	</pre>
+</definition>
