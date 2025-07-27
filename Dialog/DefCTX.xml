@@ -27,7 +27,7 @@
 		<exec>DialogManager.ClearText();</exec>
 	</impl>
 	
-	<icon>Dialog/IconCTX.bmp</icon>
+	<icon>IconCTX.bmp</icon>
 	<name>Add Dialog Choice</name>
 	<desc>Adds a dialog choice to the next line of dialog.</desc>
 	<category>Dialog</category>

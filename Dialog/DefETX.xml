@@ -26,7 +26,7 @@
 		<exec>DialogManager.AddExtension([[text]], [[wait_time]]);</exec>
 	</impl>
 	
-	<icon>Dialog/IconETX.bmp</icon>
+	<icon>IconETX.bmp</icon>
 	<name>Add Dialog Extension</name>
 	<desc>Adds an extension to the next line of dialog.</desc>
 	<category>Dialog</category>

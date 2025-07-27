@@ -1,7 +1,7 @@
 <definition>
 	<opcode>SEQ</opcode>
 
-	<icon>Dialog/IconSEQ.bmp</icon>
+	<icon>IconSEQ.bmp</icon>
 	<name>Text Sequence</name>
 	<desc>A sequence of dialog instructions.</desc>
 	<category>Dialog</category>

@@ -1,2 +1,2 @@
-# ISA.Instructions
-Private repository for ISA instructions.
+# Cutscenes.Instructions
+A repository for cutscene instructions.

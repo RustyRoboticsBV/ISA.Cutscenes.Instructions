@@ -31,7 +31,7 @@
 		<exec>DialogManager.SetText([[speaker]], [[mood]], [[body]]);</exec>
 	</impl>
 	
-	<icon>Dialog/IconTXT.bmp</icon>
+	<icon>IconTXT.bmp</icon>
 	<name>Set Text</name>
 	<desc>Sends a line of dialog to the dialog manager class.</desc>
 	<category>Dialog</category>

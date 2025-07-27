@@ -10,7 +10,7 @@
 		<exec>DialogManager.ClearText();</exec>
 	</impl>
 	
-	<icon>Dialog/IconCLR.bmp</icon>
+	<icon>IconCLR.bmp</icon>
 	<name>Clear Text</name>
 	<desc>Clears the text in the currently-selected dialog window.</desc>
 	<category>Dialog</category>
