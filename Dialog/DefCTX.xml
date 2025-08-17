@@ -14,7 +14,7 @@
 			<name>Target Label</name>
 			<desc>The label that will be jumped to if this option is selected.</desc>
 			<remove_default>true</remove_default>
-			<preview>limit([[text]], 20);</preview>
+			<preview>return limit([[text]], 20);</preview>
 		</output>
 	</params>
 	
@@ -32,5 +32,5 @@
 	<desc>Adds a dialog choice to the next line of dialog.</desc>
 	<category>Dialog</category>
 
-	<preview>[[text]];</preview>
+	<preview>return [[text]];</preview>
 </definition>

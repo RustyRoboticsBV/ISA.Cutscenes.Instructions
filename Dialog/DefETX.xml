@@ -31,5 +31,5 @@
 	<desc>Adds an extension to the next line of dialog.</desc>
 	<category>Dialog</category>
 	
-	<preview>[[text]];</preview>
+	<preview>return [[text]];</preview>
 </definition>

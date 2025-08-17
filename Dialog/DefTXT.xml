@@ -44,10 +44,12 @@
 	</node>
 	
 	<preview>
+		var result : String = "";
 		if [[speaker]] != "":
 			result += [[speaker]] + ": ";
 		result += [[body]] + [[extensions]];
 		result = limit(result, 100);
+		return result;
 	</preview>
 	
 	<pre>
