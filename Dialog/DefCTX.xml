@@ -14,7 +14,7 @@
 			<name>Target Label</name>
 			<desc>The label that will be jumped to if this option is selected.</desc>
 			<remove_default>true</remove_default>
-			<preview>return limit([[text]], 20);</preview>
+			<preview>return limit([[text]], 20, "...");</preview>
 		</output>
 	</params>
 	
@@ -27,7 +27,7 @@
 		<exec>DialogManager.ClearText();</exec>
 	</impl>
 	
-	<icon>IconCTX.bmp</icon>
+	<icon>IconCTX.svg</icon>
 	<name>Add Dialog Choice</name>
 	<desc>Adds a dialog choice to the next line of dialog.</desc>
 	<category>Dialog</category>

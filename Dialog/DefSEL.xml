@@ -19,7 +19,7 @@
 		<exec>DialogManager.SelectWindow(%id%);</exec>
 	</impl>
 	
-	<icon>IconSEL.bmp</icon>
+	<icon>IconSEL.svg</icon>
 	<name>Select Window</name>
 	<desc>Select a dialog window as the target for future dialog-related instructions.</desc>
 	<category>Dialog</category>

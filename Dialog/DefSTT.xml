@@ -25,7 +25,7 @@
 		<exec>DialogManager.EnterState(%state%, %time%);</exec>
 	</impl>
 	
-	<icon>IconSTT.bmp</icon>
+	<icon>IconSTT.svg</icon>
 	<name>Set Window State</name>
 	<desc>Start a state transition for the selected dialog window.</desc>
 	<category>Dialog</category>

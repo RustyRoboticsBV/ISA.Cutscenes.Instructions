@@ -31,7 +31,7 @@
 		<exec>DialogManager.SetText([[speaker]], [[mood]], [[body]]);</exec>
 	</impl>
 	
-	<icon>IconTXT.bmp</icon>
+	<icon>IconTXT.svg</icon>
 	<name>Set Text</name>
 	<desc>Sends a line of dialog to the dialog manager class.</desc>
 	<category>Dialog</category>
@@ -48,7 +48,7 @@
 		if [[speaker]] != "":
 			result += [[speaker]] + ": ";
 		result += [[body]] + [[extensions]];
-		result = limit(result, 100);
+		result = wordwrap(result, 50);
 		return result;
 	</preview>
 	
@@ -92,6 +92,12 @@
 					<desc>An extension added to this line of dialog.</desc>
 				</instr>
 			</type>
+			<preview>
+				var result : String = "";
+				for i in [[count]]:
+					result += [[elementi]];
+				return result;
+			</preview>
 		</list>
 		<list>
 			<id>choices</id>
