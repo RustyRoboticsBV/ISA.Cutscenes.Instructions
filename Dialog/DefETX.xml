@@ -13,7 +13,7 @@
 			<name>Text</name>
 			<desc>The text that will be displayed.</desc>
 			<default> Blah.</default>
-			<translate>True</translate>
+			<localize>true</localize>
 		</multiline>
 	</params>
 	

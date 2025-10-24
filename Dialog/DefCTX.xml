@@ -7,7 +7,7 @@
 			<name>Text</name>
 			<desc>The text that will be displayed.</desc>
 			<default>Blah.</default>
-			<translate>True</translate>
+			<localize>true</localize>
 		</textline>
 		<output>
 			<id>target_label</id>

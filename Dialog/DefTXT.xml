@@ -5,7 +5,7 @@
 		<textline>
 			<id>speaker</id>
 			<name>Speaker</name>
-			<desc>The character or object that delivers this line.</desc>
+			<desc>The ID of the character or object that delivers this line.</desc>
 		</textline>
 		<textline>
 			<id>mood</id>
@@ -18,7 +18,7 @@
 			<name>Body</name>
 			<desc>The actual line of dialog that will be printed.</desc>
 			<default>Blah, blah, blah...</default>
-			<translate>True</translate>
+			<localize>true</localize>
 		</multiline>
 	</params>
 	
